@@ -14,5 +14,6 @@
 ## links
 
 * [API](http://127.0.0.1:5000/o/0wjTQHHAc5FD1hLLjKzh/s/n02O2YZqHuM2gq6Gb9FZ/)
+* [Status](https://questo.instatus.com)
 * [Website](https://www.questo.bot)
 * [Support](https://discord.gg/QRc8K3829k)
