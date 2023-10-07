@@ -34,4 +34,4 @@ If you have any questions or concerns about our Privacy Policy or how we handle 
 
 
 
-By using Questo, you agree to the terms outlined in this Privacy Policy. Please review this policy regularly to stay informed about how we protect your privacy.
+_By using Questo, you agree to the terms outlined in this Privacy Policy. Please review this policy regularly to stay informed about how we protect your privacy._
