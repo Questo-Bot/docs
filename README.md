@@ -82,6 +82,12 @@ else:
     print("Error:", response.status_code)
 ```
 
+You should get a response back that resembles the following:
+
+```json
+{"response":"This is an example!"}
+```
+
 {% hint style="info" %}
 You can handle the API response however you want! For example, parsing the JSON data, extracting relevant information (such as the joke), and then using or displaying that information according to your specific needs and application requirements.
 {% endhint %}
@@ -117,12 +123,6 @@ if response.status_code == 200:
 else:
     print("Error:", response.status_code)
 
-```
-
-You should get a response back that resembles the following:
-
-```json
-{"response":"This is an example!"}
 ```
 
 {% hint style="info" %}
