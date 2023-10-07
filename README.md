@@ -1,5 +1,8 @@
 ---
-description: Documentation for Questo API.
+description: >-
+  You can use HTTP requests to work with the API from any programming language,
+  making it accessible and easy to interact with regardless of your coding
+  preference.
 ---
 
 # Get Started
@@ -14,7 +17,7 @@ A token is required
 
 ## Introduction
 
-Python
+The example below demonstrates how to make an API request and handle the response using Python.
 
 ## Import Required Libraries
 
