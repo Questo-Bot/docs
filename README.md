@@ -74,3 +74,7 @@ if response.status_code == 200:
 else:
     print("Error:", response.status_code)
 ```
+
+{% hint style="info" %}
+Remember to replace the placeholder values with your actual API endpoint URL, API key, and any additional parameters required by the API.
+{% endhint %}
