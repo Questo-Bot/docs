@@ -14,6 +14,10 @@ A token is required
 
 ## Introduction
 
+Python
+
+## Import Required Libraries
+
 This line imports the `requests` library, which is needed for making HTTP requests in Python.
 
 ```python
@@ -73,6 +77,49 @@ if response.status_code == 200:
     print("Response content:", response.text)
 else:
     print("Error:", response.status_code)
+```
+
+{% hint style="info" %}
+You can handle the API response however you want! For example, parsing the JSON data, extracting relevant information (such as the joke), and then using or displaying that information according to your specific needs and application requirements.
+{% endhint %}
+
+## What it should look like?
+
+```python
+import requests
+
+# Step 2: Define the URL
+url = "https://api.example.com/data"
+
+# Step 3: Define the API Key
+api_key = "YOUR_API_KEY"
+
+# Step 4: Define Additional Parameters (Optional)
+params = {
+    "param1": "value1",
+    "param2": "value2"
+}
+
+# Step 5: Create Headers with Authentication
+headers = {
+    "Authorization": f"Bearer {api_key}"
+}
+
+# Step 6: Make the HTTP GET Request
+response = requests.get(url, params=params, headers=headers)
+
+# Step 7: Handle the Response
+if response.status_code == 200:
+    print("Response content:", response.text)
+else:
+    print("Error:", response.status_code)
+
+```
+
+You should get a response back that resembles the following:
+
+```json
+{"response":"This is an example!"}
 ```
 
 {% hint style="info" %}
