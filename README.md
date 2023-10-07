@@ -89,7 +89,7 @@ You should get a response back that resembles the following:
 ```
 
 {% hint style="info" %}
-You can handle the API response however you want! For example, parsing the JSON data, extracting relevant information (such as the joke), and then using or displaying that information according to your specific needs and application requirements.
+You can handle the API response however you want! For example, parsing the JSON data, extracting relevant information, and then using or displaying that information according to your specific needs and application requirements.
 {% endhint %}
 
 ## What it should look like?
