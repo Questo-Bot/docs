@@ -95,6 +95,7 @@ You can handle the API response however you want! For example, parsing the JSON 
 ## What it should look like?
 
 ```python
+# Step 1: Import Required Libraries
 import requests
 
 # Step 2: Define the URL
